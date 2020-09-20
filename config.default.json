@@ -1,10 +1,10 @@
 {
 	"token": "Your Discord bot token (unless you're using Heroku, in which case you should use the TOKEN environment variable instead)",
-	"startingTimeout": 5000,
+	"startingDelay": 5000,
 	"firstHitAction": "!hitball",
 	"firstHitTimeout": 300000,
-	"pickPlayerMinDelay": 2000,
-	"pickPlayerMaxDelay": 5000,
+	"ballMinDelay": 2000,
+	"ballMaxDelay": 5000,
 	"hitActions": [
 		{ "action": "!hitball", "weight": 70, "timeout": 5000, "message": "The ball is dropping towards PLAYER." },
 		{ "action": "!kickball", "weight": 20, "timeout": 4000, "message": "The falling ball suddenly accelerates to dangerous speeds. PLAYER needs to **!kickball** to hit it in time!" },

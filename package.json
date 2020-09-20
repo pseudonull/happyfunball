@@ -1,6 +1,6 @@
 {
   "name": "happyfunball",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Accept no substitutes!",
   "main": "index.js",
   "scripts": {
