@@ -16,5 +16,8 @@
   "dependencies": {
     "discord.js": "^12.3.1",
     "weighted-random": "^0.1.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
