@@ -7,7 +7,7 @@
 	"ballMaxDelay": 5000,
 	"hitActions": [
 		{ "action": "!hitball", "weight": 70, "timeout": 5000, "message": "The ball is dropping towards PLAYER." },
-		{ "action": "!kickball", "weight": 20, "timeout": 4000, "message": "The falling ball suddenly accelerates to dangerous speeds. PLAYER needs to **!kickball** to hit it in time!" },
+		{ "action": "!kickball", "weight": 20, "timeout": 4000, "message": "The ball is dropping quickly. PLAYER needs to **!kickball** to hit it in time!" },
 		{ "action": "!divingballhit", "weight": 10, "timeout": 5000, "message": "The ball is landing just outside PLAYER's reach. You'll need a **!divingballhit** to make it!" }
 	],
 	"successfulHitMessages": [
