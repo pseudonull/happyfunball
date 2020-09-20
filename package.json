@@ -1,0 +1,20 @@
+{
+  "name": "happyfunball",
+  "version": "0.0.1",
+  "description": "Accept no substitutes!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ball",
+    "bot",
+    "discord"
+  ],
+  "author": "Marcus Fong",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "weighted-random": "^0.1.0"
+  }
+}
