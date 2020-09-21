@@ -26,3 +26,10 @@ If you're instead running the bot on Heroku using GitHub integration, do **not**
 1. If a player doesn't hit the ball up in time, the ball will touch the ground and the game ends.
 1. A player may leave the game by typing **!leaveball**.
 1. The ball's speed can be increased during a game with **!tauntball** and decreased with **!pacifyball**. The ball's speed carries over between games.
+
+# Customisation
+
+There are various numerical parameters in ```config.json``` that can be adjusted, but the main things you'll probably want to customise are:
+
+* ```successfulHitMessages``` is a list of possible messages that will be randomly displayed to a player when they hit the ball, adding colour and variety to the game.
+* ```hitActions``` is a list of possible actions a player will need to type in order to hit the ball, along with weights that determine how often each action will appear, timeouts which determine how much time the player has to type the action, and a message that tells the player what action they need to type.
