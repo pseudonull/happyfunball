@@ -15,7 +15,7 @@ If you intend to run the bot locally:
 1. Run the bot with ```node index.js```
 1. [Invite](https://discordjs.guide/preparations/adding-your-bot-to-servers.html) the bot to your server.
 
-If you're instead running the bot on Heroku using GitHub integration, do **not** create a config.json file and put your token in it. Create a [config var](https://devcenter.heroku.com/articles/config-vars) in Heroku named ```TOKEN``` and set it to your Discord bot token.
+If you're instead running the bot on Heroku using GitHub integration, do **not** put your token in the config.json file. Create a [config var](https://devcenter.heroku.com/articles/config-vars) in Heroku named ```TOKEN``` and set it to your Discord bot token.
 
 # Playing the Game
 
