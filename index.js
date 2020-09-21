@@ -37,6 +37,14 @@ function processAction(message) {
 			ball = getBall(message.channel);
 			ball.checkHighScore();
 			break;
+		case "!leaveball":
+			ball = getBall(message.channel);
+			ball.leaveBall(message);
+			break;
+		case "!pacifyball":
+			ball = getBall(message.channel);
+			ball.pacifyBall(message.author.id);
+			break;
 		case "!playball":
 			ball = getBall(message.channel);
 			ball.playBall(message);
@@ -45,6 +53,7 @@ function processAction(message) {
 			ball = getBall(message.channel);
 			ball.tauntBall(message.author.id);
 		default:
+			// Check if one of the configured keywords for hitting the ball has been used.
 			if (config.hitActionKeywords.includes(message.content)) {
 				ball = getBall(message.channel);
 				ball.hitBall(message);

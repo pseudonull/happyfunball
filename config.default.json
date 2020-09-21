@@ -13,5 +13,7 @@
 	"successfulHitMessages": [
 		"PLAYER hit the ball! It goes up again."
 	],
-	"tauntMultiplier": 2
+	"tauntLevel": 0,
+	"tauntDelayIncrement": 500
 }
+
