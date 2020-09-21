@@ -21,7 +21,7 @@ If you're instead running the bot on Heroku using GitHub integration, do **not**
 
 1. Type **!playball** to start a game. Additional players can join a game in progress by typing **!playball**.
 1. When the ball appears in the channel, you will be prompted to type **!hitball** to begin the game.
-1. The ball will bounce up and, after a brief delay, fall towards another player. They can hit the ball up and keep the game going by typing **!hitball** (unless the prompt tells them to type something else).
+1. The ball will bounce up and, after a brief delay, fall towards another player. They can hit the ball up and keep the game going by typing **!hitball** (unless the prompt tells them to type something else to hit it).
 1. Each time the ball is hit, points are scored equal to the number of players in the game.
 1. If a player doesn't hit the ball up in time, the ball will touch the ground and the game ends.
 1. A player may leave the game by typing **!leaveball**.
